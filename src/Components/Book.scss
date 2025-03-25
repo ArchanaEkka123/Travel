@@ -1,0 +1,207 @@
+/* Simple styling for the nav */
+
+  
+  
+  
+    
+        .book-sec {
+          display: flex;
+          flex-direction: row;
+          justify-content: space-between;
+          // width: 1200px;
+          @media (max-width: 700px) {
+            flex-direction: column;
+          }
+          .book-left {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            width: 700px;
+            padding-left: 100px;
+            margin-top: 100px;
+  
+            @media (max-width: 800px) {
+              padding-left: 50px;
+  
+            }
+            @media (max-width: 700px) {
+              padding-left: 50px;
+  
+            }
+            @media (max-width: 400px) {
+              padding-left: 50px;
+  
+            }
+            .book-content-holder {
+              display: flex;
+              flex-direction: column;
+              width: 511px;
+              gap: 20px;
+              .content-1 {
+                color: 5E6282;
+                font-family: Nunito;
+                font-weight: 700;
+                font-size: 20px;
+              
+                // @media (max-width: 900px) {
+                //   font-size: 15px;
+                // }
+              }
+              .book-heading {
+               
+                font-weight: 700;
+                font-size: 50px;
+                color: #333333;
+  
+                @media (max-width: 1200px) {
+                  font-size: 50px;
+                }
+                @media (max-width: 1000px) {
+                  font-size: 40px;
+                }
+                @media (max-width: 900px) {
+                  font-size: 30px;
+                }
+              }
+              .home-content {
+                font-family: Nunito;
+                font-weight: 400;
+                font-size: 16px;
+                color: #828282;
+                @media (max-width: 900px) {
+                  font-size: 20px;
+                }
+              }
+  
+              .button-holder {
+                display: flex;
+                .button {
+                  width: 170px;
+                  height: 60px;
+                  border-radius: 8px;
+                  background: #fdc435;
+                  font-family: Roboto;
+                  font-weight: 500;
+                  font-size: 18px;
+                  color: #25282b;
+                  display: flex;
+                  justify-content: center;
+                  align-items: center;
+                  @media (max-width: 900px) {
+                    width: 100px;
+                    height: 40px;
+                  }
+                }
+                .button-2 {
+                  width: 170px;
+                  height: 60px;
+                  border-radius: 8px;
+                  border-width: 2px;
+                  color: #25282b;
+                  font-family: Roboto;
+                  font-weight: 500;
+                  font-size: 17px;
+                  margin-left: 12px;
+                  display: flex;
+                  justify-content: center;
+                  align-items: center;
+                  @media (max-width: 900px) {
+                    width: 100px;
+                    height: 40px;
+                  }
+                  .Play-button{
+                    width: 52px;
+                    height: 52px;
+                  }
+                }
+              }
+            }
+          }
+  
+          .inner-right-content{
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+            .book-content1{
+              display: flex;
+              flex-direction: column;
+              gap: 20px;
+            }
+          }
+          .book-right {
+            display: flex;
+            flex-direction: column;
+            width: 500px;
+            align-items: center;
+            justify-content: center;
+
+            background-image: url('/images/background-color.svg');
+            background-size: cover;
+            background-position: right;
+            @media (max-width: 700px) {
+              display: none;
+            }
+           .card{
+           background-color: white;
+           padding: 20px;
+           border-radius: 20px;
+           }
+            .myimage {
+              width:auto;
+              @media (max-width: 700px) {
+                border-radius: 50%;
+              }
+            }
+          }
+        }
+    
+  .book-left-box{
+    display: flex;
+    gap:10px;
+    width: 400px;
+    .book-left-content{
+      display: flex;
+      flex-direction: column;
+      width: 327px;
+      .book-left-heading{
+        font-size: 16px;
+        
+        .book-left-description{
+          font-size: 16px;
+        }
+      }
+    }
+  }
+  .book-left-lower-box{
+    display: flex;
+    gap: 48px;
+    width: 511px ;
+    flex-direction: column;
+  }  
+  .book-content2{
+    display: flex;
+       
+  }
+  .book-right-bottom{
+    display: flex;
+    gap: 10px;
+  }
+  .card-right-heading {
+    font-weight: 700;
+  } 
+  .small-card{
+    display: flex;
+    background-color: white;
+    width: 263px;
+    align-items: center;
+    justify-content: center;
+    gap:10px;
+border-radius: 10px;
+padding: 10px;
+margin-top: -150px;
+margin-left: 280px;
+  }
+  .small-card-image{
+    border-radius: 50%;
+  }
