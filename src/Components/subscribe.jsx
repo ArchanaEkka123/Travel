@@ -4,7 +4,7 @@ import "tailwindcss";
 
 const Subscribe = () => {
   return (
-    <div className="subscribe">
+    <div className="subscribe ">
       <img
         className="share-image"
         src="/images/share.svg"

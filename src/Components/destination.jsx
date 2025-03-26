@@ -3,16 +3,16 @@ import "./destination.scss";
 import "tailwindcss";
 const Destination = () => {
   return (
-    <div className="services-main ">
-      <div className="services-sec ">
-        <div className="services-heading">
+    <div className="destination-main ">
+      <div className="destination-sec ">
+        <div className="destination-heading-box">
           <p className="sub-heading">Top Selling</p>
-          <p className="heading text-5xxl  text-black font-semibold ">Top Destinations</p>
+          <p className="destination-heading text-5xxl  text-black font-semibold ">Top Destinations</p>
         </div>
 
-        <div card-holder>
-          <div className="card-holder">
-            <div className="card">
+        <div >
+          <div className="destination-card-holder">
+            <div className="destination-card">
               <div>
                 <img
                   className="destination-image"
@@ -44,7 +44,7 @@ const Destination = () => {
                 </div>
               </div>
             </div>
-            <div className="card">
+            <div className="destination-card">
               <div>
                 <img
                   className=""
@@ -76,7 +76,7 @@ const Destination = () => {
                 </div>
               </div>
             </div>
-            <div className="card">
+            <div className="destination-card">
               <div>
                 <img
                   className=""

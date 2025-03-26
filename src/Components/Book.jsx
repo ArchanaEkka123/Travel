@@ -9,7 +9,7 @@ const Book = () => {
         <div className="book-content-holder  ">
           <p className="content-1">Easy and Fast</p>
           <p className="book-heading ">Book your next trip in 3 easy steps</p>
-          <div className="book-left-lower-box">
+          <div className="book-left-lower-box pl-10">
             <div className=" book-left-box">
               <div className="book-left-image">
                 <img
@@ -78,10 +78,10 @@ const Book = () => {
       </div>
 
       <div className="book-right ">
-        <div className="card">
+        <div className="book-card">
           <div className="card-image mb-5">
             <img
-              className="destination-image"
+              className="book-image"
               src="/images/book-right-image.png"
               alt="Description of the image"
               width={321}
@@ -119,7 +119,7 @@ const Book = () => {
             </div>
             <div className="book-right-bottom">
             <img
-                className=""  
+                className="book-right-bottom-image"  
                 src="/images/building1.svg"
                 alt="Description of the image"
                 width={16}

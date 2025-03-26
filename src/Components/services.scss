@@ -1,13 +1,14 @@
 .services-main {
     display: flex;
     width: 100%;
-    
+    margin-bottom: 20px;
     .services-sec{
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
         width: 100%;
+        padding-bottom: 20px;
        .services-heading{
         display: flex;
         justify-content: center;
@@ -15,9 +16,24 @@
         width: 100%;
         flex-direction: column;
         margin-bottom: 20px;
-        .heading{
+        text-align: center;
+        .heading-offer{
+          display: flex;
             font-size: 50px;
             font-style: bold;
+            text-align: center;
+            @media (max-width: 1200px) {
+                font-size: 40px;
+              }
+              @media (max-width: 1200px) {
+                font-size: 40px;
+              }
+              @media (max-width: 800px) {
+                font-size: 30px;
+              }
+              @media (max-width: 500px) {
+                font-size: 25px;
+              }
         }
         .sub-heading{
             color:  5E6282;
@@ -33,32 +49,55 @@
 .card-holder{
     display: flex;
     width: 100%;
-    justify-content: space-evenly;
+   padding-bottom: 20px;
+    justify-content: center;
+    align-items: center;
    
 }
 
-.card-holder{
+.services-card-holder{
     width: 100%;
     display: flex;
-    padding-top: 20px;
-    padding-bottom: 20px;
-   gap: 10px;
-   justify-content: space-evenly;
-    .card{
+   
+    padding: 20px;
+    height: auto;
+    flex-wrap: wrap;
+  gap: 10px;
+justify-content: space-evenly;
+   
+    .services-card{
         display: flex;
         justify-content: center;
         align-items: center;
-       width: 200px;
+        width: 200px;
         justify-content: space-between;
         flex-direction: column;
-     
+       
+     .services-image1{
+        @media (max-width: 1200px) {
+            width: 70px;
+            height: 60px;
+
+          }
+     }
        .card-heading{
         color: 1E1D4C;
         font-size: 20px;
+
+        height: 50px;
+        @media (max-width: 1200px) {
+            font-size: 15px;
+            
+          }
        }
        .card-description{
         color: 5E6282;
         font-size: 16px;
+        height: auto;
+        @media (max-width: 1200px) {
+            font-size: 13px;
+            
+          }
        }
     }
 }

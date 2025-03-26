@@ -20,7 +20,7 @@ const Home = () => {
               <div className="content-holder  ">
                 <p className="content-1">Best Destinations around the world</p>
                 <p className="home-heading">
-                  {/* text-5xl  text-gray-700 */}
+                  
                   Travel, enjoy and live a new and full life
                 </p>
                 <p className="home-content  text-gray-400">
@@ -29,11 +29,11 @@ const Home = () => {
                  Park gate sell they west hard for the.
                 </p>
                 <div className="button-holder m-10 ">
-                  <button className="button">Find out more</button>
+                  <button className="button font-bold">Find out more</button>
                   <button className="button-2  ml-5">
                     
                   <img
-                className="Play-button"
+                className="Play-button" 
                 src="/images/Play button.svg"
                 alt="Description of the image"
                 width={52}

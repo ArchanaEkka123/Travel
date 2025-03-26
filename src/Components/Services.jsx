@@ -5,17 +5,17 @@ const Services = () => {
   return (
     <div className="services-main ">
       <div className="services-sec ">
-        <div className="services-heading">
+        <div className="services-heading ">
           <p className="sub-heading">CATEGORY</p>
-          <p className="heading text-4xl font-semibold ">We Offer Best Services</p>
+          <p className="heading-offer text-4xl font-semibold ">We Offer Best Services</p>
         </div>
 
         <div card-holder>
-          <div className="card-holder">
-            <div className="card">
+          <div className="services-card-holder">
+            <div className="services-card">
               <div>
                 <img
-                  className=""
+                  className="services-image1"
                   src="/images/satellite-dish.png"
                   alt="Description of the image"
                   width={92}
@@ -23,13 +23,13 @@ const Services = () => {
                 />
               </div>
               <div>
-                <p className="card-heading"  >Calculated Weather </p>
+                <p className="card-heading font-bold "  >Calculated Weather </p>
                 <p className="card-description" >
                   Built Wicket longer admire do barton vanity itself do in it.{" "}
                 </p>
               </div>
             </div>
-            <div className="card">
+            <div className="services-card">
               <div>
                 <img
                   className=""
@@ -40,13 +40,13 @@ const Services = () => {
                 />
               </div>
               <div>
-                <p className="card-heading">Best Flights</p>
+                <p className="card-heading font-bold">Best Flights</p>
                 <p className="card-description">
                 Engrossed listening. Park gate sell they west hard for the.{" "}
                 </p>
               </div>
             </div>
-            <div className="card">
+            <div className="services-card">
             <div>
                <img
               className=""
@@ -56,13 +56,13 @@ const Services = () => {
               height={75}
             /></div>
            <div>
-           <p   className="card-heading">Local Events </p>
+           <p   className="card-heading font-bold">Local Events </p>
             <p className="card-description">Barton vanity itself do in it. 
               Preferd to men it engrossed listening.  </p>
            </div>
             
           </div>
-          <div className="card">
+          <div className="services-card">
             <div>
                <img
               className=""
@@ -72,7 +72,7 @@ const Services = () => {
               height={66}
             /></div>
            <div>
-           <p   className="card-heading">Customization </p>
+           <p   className="card-heading font-bold">Customization </p>
             <p className="card-description">
             We deliver outsourced
 aviation services for

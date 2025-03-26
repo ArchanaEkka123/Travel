@@ -8,13 +8,13 @@ const Footer = () => {
       <div className="footer-content">
         <div className=" footer1">
           <img
-            className=""
+            className="footer-jaddo-image"
             src="/images/Jadoo.svg"
             alt="Description of the image"
             width={100}
             height={100}
           />
-          <p>Book your trip in minute, get full Control for much longer.</p>
+          <p className="footer1-content ">Book your trip in minute, get full Control for much longer.</p>
         </div>
         <div className=" footer1">
           <h2 className=" font-bold">Company</h2>
@@ -37,37 +37,37 @@ const Footer = () => {
         <div className="footer-social-media">
           <div className="social-media">
             <img
-              className=""
+              className="social-media-image"
               src="/images/Social-fb.svg"
               alt="Description of the image"
             />
             <img
-              className=""
+              className="social-media-image"
               src="/images/Social-insta.svg"
               alt="Description of the image"
             />
 
             <img
-              className=""
+              className="social-media-image"
               src="/images/Social-twitter.svg"
               alt="Description of the image"
             />
           </div>
-          <p className="footer-content">Discover our app</p>
+          <p className="footer1-content w-full ">Discover our app</p>
 
           <div className="footer-social-right">
             <img
-              className=""
+              className="social-media-image"
               src="/images/Play Store.svg"
               alt="Description of the image"
-              width={100}
+              width={80}
               height={100}
             />
             <img
-              className=""
+              className="social-media-image"
               src="/images/Google Play.svg"
               alt="Description of the image"
-              width={100}
+              width={80}
               height={100}
             />
           </div>
